@@ -1,0 +1,1164 @@
+{
+  "current": {
+    "color_body_bg": "#fff5ff",
+    "color_body_text": "#000000",
+    "color_primary_color": "#0b4b18",
+    "color_primary_button_text": "#ffffff",
+    "color_sale_badge": "#c8493f",
+    "color_borders": "#000000",
+    "color_form": "#fff5ff",
+    "color_image_overlay_text": "#ffffff",
+    "color_image_overlay": "#333333",
+    "image_overlay_opacity": 25,
+    "type_header_font": "cormorant_n7",
+    "type_header_base_size": "28px",
+    "type_base_font": "cormorant_n5",
+    "type_base_size": "16px",
+    "type_button_base_size": "15px",
+    "type_navigation_base_size": "16px",
+    "cart_enable_ajax": true,
+    "show_breadcrumb_nav": false,
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "favicon": "shopify:\/\/shop_images\/Screenshot_2023-12-11_at_9.45.21_AM.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/Screenshot_2023-11-29_at_9.53.34_PM.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/JONAH_REIDER_aa60132d-d9ef-4f76-9aa0-705a5fd788f0.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#414439",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#fffef4",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#fffef4",
+    "checkout_button_color": "#fffef4",
+    "sections": {
+      "featured-products": {
+        "type": "featured-products",
+        "disabled": true,
+        "custom_css": [
+          ".product__price {display: none !important;}"
+        ],
+        "settings": {
+          "title": "",
+          "home_page_featured_products": "frontpage",
+          "home_featured_products_row_num": 2
+        }
+      },
+      "featured-content": {
+        "type": "featured-content",
+        "settings": {
+          "section_title": "ABOUT US",
+          "text": "<p>We live, love, and host together. Now, we&#x27;ve decided to releases small batches of highly seasonal creations for people who like cooking and hosting as much as us.<\/p>",
+          "text_size": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "b3bd6032-f09a-4d85-8c1a-8076f67c711e": {
+            "type": "text",
+            "disabled": true,
+            "settings": {
+              "title": "CONTACT",
+              "richtext": "<p>Email help@pith.store with any inquiries. Copyright © 2022 Pith Home Goods.<\/p>"
+            }
+          },
+          "2c5b66d7-4e90-4b96-9de0-d1fa84a02cbc": {
+            "type": "menu",
+            "settings": {
+              "title": "",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "b3bd6032-f09a-4d85-8c1a-8076f67c711e",
+          "2c5b66d7-4e90-4b96-9de0-d1fa84a02cbc"
+        ],
+        "settings": {
+          "show_payment_icons": false
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Screen_Shot_2021-03-21_at_1.39.23_PM.png",
+          "logo_max_width": 165,
+          "show_announcement": false,
+          "home_page_only": false,
+          "announcement_text": "",
+          "announcement_link": "",
+          "tagline": ""
+        }
+      },
+      "sidebar": {
+        "type": "sidebar",
+        "settings": {
+          "main_menu_link_list": "main-menu"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "1615933232256a92a1": {
+        "type": "featured-content",
+        "disabled": true,
+        "settings": {
+          "text_color": "#465147",
+          "section_title": "",
+          "text": "<p>Making the world a more delicious and beautiful place.<\/p>",
+          "text_size": "large"
+        }
+      },
+      "1615939163ed012896": {
+        "type": "newsletter",
+        "disabled": true,
+        "settings": {
+          "heading": "",
+          "subtext": ""
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_quantity_enable": true,
+          "vendor_show": false,
+          "social_sharing_products": false,
+          "product_description_position": "right",
+          "show_extra_tab": false,
+          "extra_tab_content": "",
+          "product_image_zoom_type": "lightbox",
+          "enable_payment_button": false,
+          "add_to_cart_width": "regular"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also enjoy:",
+          "vendor_show": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "vendor_show": false,
+          "collection_sort_enable": false,
+          "collection_tag_enable": false
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Screen_Shot_2021-03-21_at_1.39.23_PM.png",
+          "logo_max_width": 200
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "title": "",
+          "newsletter_enable": true,
+          "newsletter_form_heading": "",
+          "newsletter_form_subheading": "<p>Be the first to know about new goods, classes, and events.<\/p>",
+          "newsletter_placeholder": "Email address",
+          "newsletter_button_text": "Submit",
+          "show_share_buttons": false,
+          "social_message": "Spread the word"
+        }
+      },
+      "16236885785782552b": {
+        "type": "featured-banner",
+        "disabled": true,
+        "settings": {
+          "title": "",
+          "banner": "shopify:\/\/shop_images\/787AE591-0A10-4719-92E2-C2481E8EBF28.jpg",
+          "banner_url": ""
+        }
+      },
+      "header-with-sidebar": {
+        "type": "header-with-sidebar",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/IMG_0434-removebg.png",
+          "logo_text": "Jonah reider",
+          "logo_max_width": 180,
+          "main_menu_link_list": "new-menu",
+          "image1": "shopify:\/\/shop_images\/Group_970.png",
+          "image2": "shopify:\/\/shop_images\/o_Take_II_Corporation.png",
+          "link": ""
+        }
+      },
+      "a6fccfad-be2e-46ff-bff5-37cf0544282e": {
+        "type": "featured-blog",
+        "disabled": true,
+        "settings": {
+          "title": "Recipes",
+          "blog": "recipes",
+          "post_limit": 3,
+          "blog_show_date": false,
+          "blog_show_author": false,
+          "blog_show_image": true,
+          "blog_show_excerpt": false,
+          "show_view_all": false,
+          "disable_click": false
+        }
+      },
+      "eca46003-11e0-4d73-b6cf-c77c36c53d6d": {
+        "type": "featured-banner",
+        "disabled": true,
+        "settings": {
+          "title": "",
+          "banner": "shopify:\/\/shop_images\/edaaa0f5-68df-48fa-a794-4cf5e72d797a.jpg",
+          "banner_url": ""
+        }
+      },
+      "3d8cd2f2-b59c-4e62-bd51-b1c5a52d7ae5": {
+        "type": "featured-blog",
+        "disabled": true,
+        "settings": {
+          "title": "CITY GUIDES",
+          "blog": "travel",
+          "post_limit": 3,
+          "blog_show_date": false,
+          "blog_show_author": false,
+          "blog_show_image": true,
+          "blog_show_excerpt": false,
+          "show_view_all": false,
+          "disable_click": false
+        }
+      },
+      "27e7e08d-f486-4d13-968b-8c8061ea346c": {
+        "type": "featured-blog",
+        "disabled": true,
+        "custom_css": [
+          "p.read-more {display: none;}",
+          "p.read-more {display: none;}"
+        ],
+        "settings": {
+          "title": "Read Jonah's thoughts about living deliciously.",
+          "blog": "product-recommendations",
+          "post_limit": 3,
+          "blog_show_date": false,
+          "blog_show_author": false,
+          "blog_show_image": true,
+          "blog_show_excerpt": false,
+          "show_view_all": false,
+          "disable_click": true
+        }
+      },
+      "86ac6b36-f8c3-42bf-9fe8-16f48bdb8f38": {
+        "type": "featured-products",
+        "disabled": true,
+        "settings": {
+          "title": "SHOP",
+          "home_page_featured_products": "frontpage",
+          "home_featured_products_row_num": 2
+        }
+      },
+      "c9ddadce-19ff-453c-b793-7c13c2ad4e3d": {
+        "type": "slideshow",
+        "blocks": {
+          "image_BmJ3br": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_1011.jpg",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "image_zYp6wb": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_1011_241e6bdc-ed3b-4805-a0ec-871e61cebf33.jpg",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "image_n74w6n": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Group_1012.jpg",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "28a6d11d-6913-42ef-9465-e0bb27f9aace": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cuisine.jpg",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "c3c90a0e-e975-4d43-be0a-d7819f25b108": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/3.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "acc8623f-a695-4507-a961-55a0232e3ab3": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-07-16_at_12.02.14_PM.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "c4866ac7-1181-48ad-b819-c3ca987db7ea": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/6.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "d989e593-b65f-4ad5-926a-c31910bc2817": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/7.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "5afd98e3-ae67-43b3-aea1-12a4111bccf5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/8.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "aba1929a-547a-4c79-9bbf-e646ae791437": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/12.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "c9ddadce-19ff-453c-b793-7c13c2ad4e3d-1665283397ad94519d-0": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "dbe1f037-5177-4fd7-9c3e-62fb0ae0f98c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "95b989e0-5c5f-4cb6-8d33-9f84a98bedd0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/10.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "ce2f9fc8-a688-4fd1-a1c3-9c208246499d": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/11.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "image_mBWxDq": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/AF_08789_1.jpg",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "c9ddadce-19ff-453c-b793-7c13c2ad4e3d-1665283397ad94519d-1": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-07-16_at_12.05.19_PM.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "image_BmJ3br",
+          "image_zYp6wb",
+          "image_n74w6n",
+          "28a6d11d-6913-42ef-9465-e0bb27f9aace",
+          "c3c90a0e-e975-4d43-be0a-d7819f25b108",
+          "acc8623f-a695-4507-a961-55a0232e3ab3",
+          "c4866ac7-1181-48ad-b819-c3ca987db7ea",
+          "d989e593-b65f-4ad5-926a-c31910bc2817",
+          "5afd98e3-ae67-43b3-aea1-12a4111bccf5",
+          "aba1929a-547a-4c79-9bbf-e646ae791437",
+          "c9ddadce-19ff-453c-b793-7c13c2ad4e3d-1665283397ad94519d-0",
+          "dbe1f037-5177-4fd7-9c3e-62fb0ae0f98c",
+          "95b989e0-5c5f-4cb6-8d33-9f84a98bedd0",
+          "ce2f9fc8-a688-4fd1-a1c3-9c208246499d",
+          "image_mBWxDq",
+          "c9ddadce-19ff-453c-b793-7c13c2ad4e3d-1665283397ad94519d-1"
+        ],
+        "settings": {
+          "slider_height": "medium",
+          "slider_home_auto": true,
+          "slider_home_rate": 1,
+          "slider_home_transition": "fade",
+          "text_size": "medium"
+        }
+      },
+      "ad65a5ba-29d8-4918-b3b9-71338258b955": {
+        "type": "featured-blog",
+        "disabled": true,
+        "custom_css": [
+          "p.read-more {display: none;}",
+          ".featured-blog__post .article__featured-link {pointer-events: none;}",
+          "@media screen and (-webkit-min-device-pixel-ratio: 0) {.featured-blog__post .article__featured-link {pointer-events: none; cursor: not-allowed; }}",
+          ".featured-blog__post h2 a {display: none; pointer-events: none;}"
+        ],
+        "settings": {
+          "title": "Visit the hotels, restaurants, and bars where our vision comes to life.",
+          "blog": "properties",
+          "post_limit": 3,
+          "blog_show_date": false,
+          "blog_show_author": false,
+          "blog_show_image": true,
+          "blog_show_excerpt": false,
+          "show_view_all": false,
+          "disable_click": true
+        }
+      },
+      "f59cd00d-4a83-4c3b-9abb-2f446d4f39de": {
+        "type": "featured-content",
+        "disabled": true,
+        "settings": {
+          "text_color": "#465147",
+          "section_title": "Brought to life at select properties around the globe.",
+          "text": "<p>Architecturally significant enclaves amidst inspiring and decadent destinations, redolent of seasonal flowers and herbs. A welcome drink and freshly roasted, freshly ground coffee each morning. Pillows in your preferred firmness.  Sheets that were obsessively picked. A simple restaurant and bar that showcase bounty from local markets and artisans.<\/p>",
+          "text_size": "medium"
+        }
+      },
+      "515763ea-d112-4e5e-b0aa-c51831dc53af": {
+        "type": "featured-content",
+        "settings": {
+          "text_color": "#465147",
+          "section_title": "",
+          "text": "<p>“★★★” – Chicago Tribune <\/p><p>“Delicious” – The New Yorker<\/p><p>“Making Every Table a Chef’s Table” – The New York Times<\/p>",
+          "text_size": "large"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "social_sharing_blog": true
+        }
+      },
+      "bottom-link": {
+        "type": "bottom-link",
+        "settings": {
+          "link": ""
+        }
+      },
+      "blogs": {
+        "type": "blogs",
+        "blocks": {
+          "d3a44f9e-9eb4-4c3a-9fc7-d6ae82992f7d": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Rectangle_518_10.png",
+              "heading": "<p>Charring on the Stovetop<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/stovetop-smoking-vegetables-supper-club",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "dd065d19-67e5-48ba-9bfd-43fd74bd7b1d": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_52.png",
+              "heading": "<p>6 Pantry Essentials for Less Meh Food<\/p>",
+              "type": "GQ",
+              "link": "https:\/\/www.gq.com\/story\/make-your-quarantine-meals-instantly-less-meh",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "44801dcf-3e16-4c53-a65c-c49d6012cdac": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_53.jpg",
+              "heading": "<p>Duck Breasts at Home<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/supper-club-duck-breasts-steps",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "55ad598e-281f-42be-a1d1-e4b1f837260d": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_54.jpg",
+              "heading": "<p>Ode to the<br\/>Mortar & Pestle<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/how\/mortar-pestle-uses-tips",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "e5853ba6-6435-4535-bf62-d5424bda524c": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_55.jpg",
+              "heading": "<p>Summertime Dinner Party<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/warm-weather-dinner-party-menu",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "80e62b55-7352-47a1-a042-1aa12aaa07d9": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_56.jpg",
+              "heading": "<p>Dinner Party Tricks<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/how-to-throw-late-spring-dinner-party-menu",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "08cca356-552f-4b27-9fe0-4b2187382e94": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-11-29_at_6.51.14_PM.png",
+              "heading": "<p>Baking Steel Magic<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/baking-steel-will-transform-your-cooking",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "4a132c06-c3ee-46df-8175-a9a4cf194981": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-11-29_at_6.52.22_PM.png",
+              "heading": "<p>Smash Patties<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/how-to-make-stovetop-smash-burgers-at-home",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "ee76125e-9029-48c5-b0ca-7a3287562292": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_57.jpg",
+              "heading": "<p>Cringiest Kitchen Decor Trends<\/p>",
+              "type": "Architectural Digest",
+              "link": "https:\/\/www.architecturaldigest.com\/story\/kitchen-decor-trends-that-give-food-artists-the-ick",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "707188c1-cc32-4b72-a0b8-5c696674a192": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_58.jpg",
+              "heading": "<p>How to Organize Your Kitchen<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/lifestyle\/kitchen\/how-to-organize-small-kitchen-storage-tips",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "4ac34d14-dbcf-4bb0-a935-6db00eec8fb5": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_59.jpg",
+              "heading": "<p>Frozen Condiments<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/freezer-condiments",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "dbc7cc14-45d2-4dda-987d-10a74b824797": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_60.jpg",
+              "heading": "<p>Simple Hosting Tips<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/hosting-tips-supper-club",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "f91ef38a-e8a1-4a63-a1d1-1b3355c37f60": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_61.jpg",
+              "heading": "<p>Ode to the Vegetable Peeler<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/vegetable-peeler-supper-club",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "c557de11-97c1-4765-86cd-ec3864aaec51": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2023-11-29_at_7.01_1.jpg",
+              "heading": "<p>Linen Napkins<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/napkin-linen-upgrade-tips-supper-club",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "fb138796-022f-4a8e-9111-3e7d75b3ee56": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_62.jpg",
+              "heading": "<p>Ode to the Broiler<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/broiling-tips-technique-supper-club",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "cb2bb9f4-f287-4cab-8b01-1f476b9b21e3": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_63.jpg",
+              "heading": "<p>Perfect Soups<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/soup-tips-supper-club",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "59e373da-66d7-478f-ba6f-6e742f501b55": {
+            "type": "blog_item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_64.jpg",
+              "heading": "<p>Dry Aging at Home<\/p>",
+              "type": "Food & Wine",
+              "link": "https:\/\/www.foodandwine.com\/cooking-techniques\/dry-aging-meats-how-supper-club",
+              "new_tab": true,
+              "article": ""
+            }
+          },
+          "d9b2908c-69b5-41c3-92a8-3a39b7b4c374": {
+            "type": "blog_item",
+            "settings": {
+              "heading": "<p>My Tokyo Essentials<\/p>",
+              "type": "Travel",
+              "link": "",
+              "new_tab": true,
+              "article": "travel\/tokyo"
+            }
+          },
+          "f9e3d667-94cc-4971-a2e1-9bab46e0b9e6": {
+            "type": "blog_item",
+            "settings": {
+              "heading": "<p>My Paris Essentials<\/p>",
+              "type": "Travel",
+              "link": "",
+              "new_tab": true,
+              "article": "travel\/paris"
+            }
+          }
+        },
+        "block_order": [
+          "d3a44f9e-9eb4-4c3a-9fc7-d6ae82992f7d",
+          "dd065d19-67e5-48ba-9bfd-43fd74bd7b1d",
+          "44801dcf-3e16-4c53-a65c-c49d6012cdac",
+          "55ad598e-281f-42be-a1d1-e4b1f837260d",
+          "e5853ba6-6435-4535-bf62-d5424bda524c",
+          "80e62b55-7352-47a1-a042-1aa12aaa07d9",
+          "08cca356-552f-4b27-9fe0-4b2187382e94",
+          "4a132c06-c3ee-46df-8175-a9a4cf194981",
+          "ee76125e-9029-48c5-b0ca-7a3287562292",
+          "707188c1-cc32-4b72-a0b8-5c696674a192",
+          "4ac34d14-dbcf-4bb0-a935-6db00eec8fb5",
+          "dbc7cc14-45d2-4dda-987d-10a74b824797",
+          "f91ef38a-e8a1-4a63-a1d1-1b3355c37f60",
+          "c557de11-97c1-4765-86cd-ec3864aaec51",
+          "fb138796-022f-4a8e-9111-3e7d75b3ee56",
+          "cb2bb9f4-f287-4cab-8b01-1f476b9b21e3",
+          "59e373da-66d7-478f-ba6f-6e742f501b55",
+          "d9b2908c-69b5-41c3-92a8-3a39b7b4c374",
+          "f9e3d667-94cc-4971-a2e1-9bab46e0b9e6"
+        ],
+        "settings": {
+          "heading": "",
+          "content": "<p>I write, host, and contribute to coverage about living more deliciously, including for Food and Wine Magazine, VICE, GQ, Architectural Digest, New York Magazine, and others.<\/p>",
+          "blog_per_count": 4
+        }
+      },
+      "featured-blogs": {
+        "type": "featured-blogs",
+        "settings": {}
+      },
+      "event-collection": {
+        "type": "event-collection",
+        "settings": {
+          "title": "CHEF'S",
+          "subtitle": "Clubhouse on Mulberry",
+          "image": "shopify:\/\/shop_images\/image_57.png",
+          "description": "Unlike any restaurant, private dining room, or member’s club, Chef’s is a private penthouse with a key-locked elevator that opens directly onto Mulberry Street in Soho, New York City."
+        }
+      },
+      "product-event": {
+        "type": "product-event",
+        "settings": {
+          "product_quantity_enable": true,
+          "vendor_show": false,
+          "social_sharing_products": false,
+          "product_description_position": "below",
+          "show_extra_tab": false,
+          "extra_tab_content": "",
+          "product_image_zoom_type": "lightbox",
+          "enable_payment_button": false,
+          "add_to_cart_width": "regular"
+        }
+      }
+    },
+    "content_for_index": [
+      "c9ddadce-19ff-453c-b793-7c13c2ad4e3d",
+      "16236885785782552b",
+      "eca46003-11e0-4d73-b6cf-c77c36c53d6d",
+      "1615933232256a92a1",
+      "515763ea-d112-4e5e-b0aa-c51831dc53af",
+      "featured-products",
+      "f59cd00d-4a83-4c3b-9abb-2f446d4f39de",
+      "ad65a5ba-29d8-4918-b3b9-71338258b955",
+      "1615939163ed012896",
+      "a6fccfad-be2e-46ff-bff5-37cf0544282e",
+      "3d8cd2f2-b59c-4e62-bd51-b1c5a52d7ae5",
+      "86ac6b36-f8c3-42bf-9fe8-16f48bdb8f38",
+      "27e7e08d-f486-4d13-968b-8c8061ea346c"
+    ]
+  },
+  "presets": {
+    "Light": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#333333",
+      "color_primary_color": "#333333",
+      "color_primary_button_text": "#ffffff",
+      "color_sale_badge": "#c8493f",
+      "color_borders": "#e8e8e8",
+      "color_form": "#f4f4f4",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#333333",
+      "image_overlay_opacity": "25",
+      "type_header_font": "times_new_roman_n4",
+      "type_header_base_size": "28px",
+      "type_base_font": "helvetica_n4",
+      "type_base_size": "15px",
+      "type_button_base_size": "14px",
+      "type_navigation_base_size": "16px",
+      "show_breadcrumb_nav": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_page_featured_products": "frontpage"
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "featured-products",
+        "featured-content"
+      ]
+    },
+    "Beauty": {
+      "color_body_bg": "#fafafa",
+      "color_body_text": "#3c4049",
+      "color_primary_color": "#c13121",
+      "color_primary_button_text": "#ffffff",
+      "color_sale_badge": "#c13121",
+      "color_borders": "#d7d8d2",
+      "color_form": "#ffffff",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#605050",
+      "image_overlay_opacity": 45,
+      "type_header_font": "futura_n4",
+      "type_header_base_size": "32px",
+      "type_base_font": "futura_n4",
+      "type_base_size": "19px",
+      "type_button_base_size": "14px",
+      "type_navigation_base_size": "16px",
+      "show_breadcrumb_nav": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_announcement": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "text_alignment": "left"
+              }
+            },
+            "slideshow-1": {
+              "type": "image",
+              "settings": {
+                "text_alignment": "left"
+              }
+            },
+            "slideshow-2": {
+              "type": "image",
+              "settings": {
+                "text_alignment": "left"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1",
+            "slideshow-2"
+          ],
+          "settings": {
+            "slider_height": "medium",
+            "slider_home_rate": 5
+          }
+        },
+        "advanced-content-0": {
+          "type": "advanced-content",
+          "blocks": {
+            "advanced-content-0-0": {
+              "type": "html",
+              "settings": {
+                "code": "<hr>"
+              }
+            }
+          },
+          "block_order": [
+            "advanced-content-0-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {
+            "section_title": "",
+            "text_size": "large"
+          }
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {
+            "home_page_featured_products": "frontpage"
+          }
+        },
+        "advanced-content-1": {
+          "type": "advanced-content",
+          "blocks": {
+            "advanced-content-1-0": {
+              "type": "html",
+              "settings": {
+                "code": "<hr>"
+              }
+            }
+          },
+          "block_order": [
+            "advanced-content-1-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "featured-row": {
+          "type": "featured-row",
+          "settings": {
+            "layout": "right"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_quantity_enable": true,
+            "vendor_show": true,
+            "product_description_position": "right",
+            "show_extra_tab": true,
+            "extra_tab_content": "",
+            "product_image_zoom_type": "none",
+            "add_to_cart_width": "full_width"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "vendor_show": true,
+            "collection_tag_enable": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-1": {
+              "type": "text",
+              "settings": {}
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "advanced-content-0",
+        "featured-content",
+        "featured-products",
+        "advanced-content-1",
+        "featured-row"
+      ]
+    },
+    "Toy": {
+      "color_body_text": "#5b4c45",
+      "color_primary_color": "#0f857c",
+      "color_primary_button_text": "#ffffff",
+      "color_sale_badge": "#a5674d",
+      "color_borders": "#ede8e7",
+      "color_image_overlay": "#0f857c",
+      "image_overlay_opacity": 55,
+      "type_header_font": "swiss_721_rounded_n7",
+      "type_header_base_size": "28px",
+      "type_base_font": "itc_johnston_n5",
+      "type_base_size": "16px",
+      "type_button_base_size": "14px",
+      "type_navigation_base_size": "16px",
+      "show_breadcrumb_nav": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_announcement": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0"
+          ],
+          "settings": {
+            "slider_height": "large",
+            "text_size": "large"
+          }
+        },
+        "featured-products": {
+          "type": "featured-products",
+          "settings": {}
+        },
+        "map": {
+          "type": "map",
+          "settings": {}
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_quantity_enable": true,
+            "vendor_show": true,
+            "product_description_position": "right",
+            "show_extra_tab": true,
+            "extra_tab_content": "",
+            "product_image_zoom_type": "none",
+            "add_to_cart_width": "regular"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "vendor_show": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-products",
+        "map"
+      ]
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "p.read-more {display: none;}"
+    ]
+  }
+}

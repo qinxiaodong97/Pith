@@ -1,0 +1,74 @@
+<div class="featured-blogs">
+  <div class="list">
+    {% for block in section.blocks %}
+      {% if block.settings.image != blank or block.settings.article != blank %}
+        <div class="item">
+          {% if block.settings.link != blank %}
+            <a href="{{ block.settings.link }}">
+          {% endif %}
+          {% if block.settings.image != blank %}
+            <img src="{{ block.settings.image | img_url: '500x500' }}"/>
+          {% endif %}
+
+          <div class="content">
+            {% if block.settings.type != blank %}
+              <span class="type">{{ block.settings.type }}</span>
+            {% endif %}
+
+            {% if block.settings.heading != blank %}
+              <h3 class="heading">{{ block.settings.heading }}</h3>
+            {% endif %}
+          </div>
+
+          {% if block.settings.link != blank %}
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Featured blogs",
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "type",
+          "label": "Type"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "article",
+          "id": "article",
+          "label": "Article"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured blogs"
+    }
+  ]
+}
+{% endschema %}

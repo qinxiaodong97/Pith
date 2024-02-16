@@ -1,0 +1,38 @@
+<div class="author-section">
+  {% if section.settings.avatar != blank %}
+    <img src="{{ section.settings.avatar | img_url: '300x300' }}"/>
+  {% endif %}
+
+  {% if section.settings.text != blank %}
+    <div class="text" style="color: {{ section.settings.text_color }};">{{ section.settings.text}}</div>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Author section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "avatar",
+      "label": "Avatar"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#555446"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Author section"
+    }
+  ]
+}
+{% endschema %}

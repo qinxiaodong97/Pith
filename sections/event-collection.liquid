@@ -1,0 +1,197 @@
+{{ 'collection.css' | asset_url | stylesheet_tag }}
+<div class="section-one" id="logo-section">
+    {% if section.settings.title != blank  %}
+        <a class="event-logo" href="/">
+            <h1 class="logo-title">{{ section.settings.title }}</h1>
+            {% if section.settings.subtitle != blank %}
+                <div class="logo-subtitle">
+                    {{ section.settings.subtitle }}
+                </div>
+            {% endif %}
+        </a>
+    {% endif %}
+    <div class="container">
+        
+        {% if section.settings.description != blank %}
+            <div class="collection-description">
+                {{ section.settings.description }}
+                </div>
+            {% else %}
+            {% if collection.description != blank  %}
+                <div class="collection-description">{{ collection.description }} </div>
+            {% endif %}
+           
+        {% endif  %}
+
+        <div class="button-section">
+
+            <a class="event-btn" href="#event-section">CALENDAR</a>
+            <a class="event-btn" href="#contact-section">BOOK YOUR EVENT</a>
+        </div>
+    </div>
+    
+</div>
+<div class="section-two" id="event-section">
+    <div class="container">
+        <div class="collection-product">
+            {% for product in collection.products %}
+                <div class="product-item">
+                    
+                    <div class="product-title">{{ product.title }}</div>
+                    {% if product.available %}
+                        <a class="product-link" href="{{product.url}}">BUY NOW</a>
+                        {% else %}
+                        <div class="soldout">SOLD OUT</div>
+                    {% endif  %}
+                    {% if product.metafields.custom.event_date != blank %}
+                        {% assign eventdate = product.metafields.custom.event_date %}
+                        {% assign formatted_date = eventdate | date: "%B %d, %Y" %}
+                       
+                        
+                        <div class="event-date"> {{formatted_date}}</div>
+                    {% endif  %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<div class="section-three" id="contact-section">
+    <div class="container">
+        <div class="contact-form-description">
+            Reserve a night at Chef’s for your next event, dinner, reception, shoot, product launch, viewing party., and more. Every booking is for a completely private night with a custom-developed menu. We have a 12-track acoustic instrument setup as well.
+
+
+
+        </div>
+        {% form 'contact' %}
+
+            {% if form.posted_successfully? %}
+            <p class="form--success">
+                {{ 'contact.form.post_success' | t }}
+            </p>
+            {% endif %}
+    
+            {{ form.errors | default_errors }}
+            {% comment %} <div class="contact-title">BOOK YOUR PRIVATE EVENT</div> {% endcomment %}
+            <div class="block">
+                <label for="ContactFormName">Name</label>
+                <input type="text" id="ContactFormName" name="contact['name']"/>
+            </div>
+            <div class="block">
+                <label for="ContactFormEmail">Email Address</label>
+                <input type="text" id="ContactFormEmail" name="contact['email']"/>
+            </div>
+            <div class="block">
+                <label for="ContactFormDate">Date of Event</label>
+                <input type="text" id="ContactFormDate" name="contact['date']"/>
+            </div>
+            <div class="block">
+                <label for="ContactFormFood">Number of Guesets</label>
+                <input type="text" id="ContactFormGuest" name="contact['guest']"/>
+            </div>
+            {% comment %} <div class="flex">
+                <label for="ContactFormFood" id="Food">Food & Drink:</label>
+                <input type="radio" id="food_yes" name="ContactFormFood" value="YES" checked>
+                <label for="food_yes">YES</label>
+                <span><b>/</b></span>
+                <input type="radio" id="food_no" name="ContactFormFood" value="No">
+                <label for="food_no">No</label>
+            </div>
+            <div class="flex">
+                <label for="ContactFormFlorals" id="Florals">Florals:</label>
+                <input type="radio" id="flo_yes" name="ContactFormFlorals" value="YES" checked>
+                <label for="flo_yes">YES</label>
+                <span><b>/</b></span>
+                <input type="radio" id="flo_no" name="ContactFormFlorals" value="No">
+                <label for="flo_no">No</label>
+            </div>
+            <div class="flex">
+                <label for="ContactFormMusic" id="Music">Music:</label>
+                <input type="radio" id="music_yes" name="ContactFormMusic" value="YES" checked>
+                <label for="music_yes">YES</label>
+                <span><b>/</b></span>
+                <input type="radio" id="music_no" name="ContactFormMusic" value="No">
+                <label for="music_no">No</label>
+            </div> {% endcomment %}
+            <div class="block">
+                <label for="ContactFormNote">Additional Notes</label>
+                <input type="text" id="ContactFormNote" name="contact['note']" />
+            </div>
+            
+            
+            <input type="submit" class="btn" value="SUBMIT INQUIRY">
+    
+        {% endform %}
+    </div>
+</div>
+<script>
+    const logSection = document.getElementById('logo-section');
+    const eventSection = document.getElementById('event-section');
+    const contactSection = document.getElementById('contact-section');
+   
+    var eventPosition = eventSection.getBoundingClientRect().top - 150;
+    var contactPosition =  contactSection.getBoundingClientRect().top - 150;
+    var r = document.querySelector(':root');
+    
+    window.addEventListener('scroll', function() {
+        const scrollPosition = window.scrollY;
+        if(scrollPosition < eventPosition){
+            r.style.setProperty('--title-color', 'transparent');
+            r.style.setProperty('--subtitle-color', '#ffffff');
+            r.style.setProperty('--sub-bg-color', '#98A76E');
+            r.style.setProperty('--stroke-color', '#ffffff');
+        }
+        if(scrollPosition > eventPosition){
+            r.style.setProperty('--title-color', '#1E2801');
+            r.style.setProperty('--subtitle-color', '#ffffff');
+            r.style.setProperty('--sub-bg-color', '#1E2801');
+            r.style.setProperty('--stroke-color', 'transparent');
+        }
+        if(scrollPosition > contactPosition){
+            r.style.setProperty('--title-color', '#1E2801');
+            r.style.setProperty('--subtitle-color', '#1E2801');
+            r.style.setProperty('--sub-bg-color', 'transparent');
+            r.style.setProperty('--stroke-color', '#1E2801');
+
+        }
+    //console.log(scrollPosition);
+    });
+</script>
+{% schema %}
+{
+    "name": "Event Collection",
+    "tag": "section",
+    "class": "event-collection",
+    "settings": [
+        {
+        "type": "text",
+        "label": "Title",
+        "id": "title"
+        },
+        {
+            "type": "text",
+            "label": "subTitle",
+            "id": "subtitle"
+        },
+        {
+        "type": "image_picker",
+        "label": "Image",
+        "id": "image"
+        },
+        {
+        "type": "textarea",
+        "label": "Description",
+        "id": "description"
+        }
+    ],
+    "blocks": [],
+    "presets": [
+    {
+        "name": "Event Collection"
+    }
+    ],
+    "templates": [
+    "collection"
+    ]
+}
+{% endschema %}

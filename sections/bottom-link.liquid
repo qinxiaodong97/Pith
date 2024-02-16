@@ -1,0 +1,32 @@
+<div class="bottom-link">
+  {% if section.settings.image1 != blank %}
+    <img class="img1" src="{{ section.settings.image1 | img_url: 'master' }}"/>
+  {% endif %}
+
+  {% if section.settings.image2 != blank %}
+    <img class="img2" src="{{ section.settings.image2 | img_url: 'master' }}"/>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Bottom link",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image 2"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    }
+  ]
+}
+{% endschema %}

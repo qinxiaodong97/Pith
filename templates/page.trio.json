@@ -1,0 +1,31 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "563facd1-3db7-4014-927c-a93bf489050d": {
+      "type": "featured-video",
+      "settings": {
+        "heading": "",
+        "video_file": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0e415144afbe475d80ce813ac6bd493d.mp4",
+        "video_url": ""
+      }
+    },
+    "889cc8bf-02a9-4915-8e3c-0fb063ed46de": {
+      "type": "featured-content",
+      "settings": {
+        "text_color": "#ffffff",
+        "section_title": "",
+        "text": "<p><em>“The sexiest jazz trio in New York City.<\/em><\/p><p><em>”bookings@hometowntrio.com<\/em><\/p><p><\/p>",
+        "text_size": "medium"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "563facd1-3db7-4014-927c-a93bf489050d",
+    "889cc8bf-02a9-4915-8e3c-0fb063ed46de"
+  ]
+}

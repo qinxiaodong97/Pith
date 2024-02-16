@@ -1,0 +1,136 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "c22f2190-12f8-4eb9-a455-708db8145142": {
+      "type": "slideshow",
+      "blocks": {
+        "302b8e6b-5b3f-4641-bfa7-aab7473c184f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-30_at_10.38.29_PM.png",
+            "alignment": "center center",
+            "overlay_opacity": 0,
+            "color_text": "#ffffff",
+            "text_alignment": "center",
+            "slide_heading": "Image slide",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--16149111963840__c22f2190-12f8-4eb9-a455-708db8145142-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_52_7579625a-bb80-4c99-8edc-695326b71a31.png",
+            "alignment": "center center",
+            "overlay_opacity": 0,
+            "color_text": "#ffffff",
+            "text_alignment": "center",
+            "slide_heading": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--16149111963840__c22f2190-12f8-4eb9-a455-708db8145142-image-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_54.png",
+            "alignment": "center center",
+            "overlay_opacity": 0,
+            "color_text": "#ffffff",
+            "text_alignment": "center",
+            "slide_heading": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "048b06d5-4cc3-4a09-831e-cfb9185022db": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_56.png",
+            "alignment": "center center",
+            "overlay_opacity": 0,
+            "color_text": "#ffffff",
+            "text_alignment": "center",
+            "slide_heading": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "18c7cbbf-f414-42aa-abb9-3b4960eea7c1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_57.png",
+            "alignment": "center center",
+            "overlay_opacity": 0,
+            "color_text": "#ffffff",
+            "text_alignment": "center",
+            "slide_heading": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "d7b778fb-cd1c-4a9f-a058-55003489c7ad": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-29_at_8.15_1.png",
+            "alignment": "center center",
+            "overlay_opacity": 0,
+            "color_text": "#ffffff",
+            "text_alignment": "center",
+            "slide_heading": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "a32058da-ea77-429e-a2c2-debb7ab3ee25": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e781594668eb278f599e19ceb11307e82ade9155-4000x5333_1.png",
+            "alignment": "center center",
+            "overlay_opacity": 0,
+            "color_text": "#ffffff",
+            "text_alignment": "center",
+            "slide_heading": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "302b8e6b-5b3f-4641-bfa7-aab7473c184f",
+        "template--16149111963840__c22f2190-12f8-4eb9-a455-708db8145142-image-1",
+        "template--16149111963840__c22f2190-12f8-4eb9-a455-708db8145142-image-2",
+        "048b06d5-4cc3-4a09-831e-cfb9185022db",
+        "18c7cbbf-f414-42aa-abb9-3b4960eea7c1",
+        "d7b778fb-cd1c-4a9f-a058-55003489c7ad",
+        "a32058da-ea77-429e-a2c2-debb7ab3ee25"
+      ],
+      "settings": {
+        "slider_height": "small",
+        "slider_home_auto": true,
+        "slider_home_rate": 2,
+        "slider_home_transition": "fade",
+        "text_size": "medium"
+      }
+    },
+    "8c591858-8351-4d14-9d4b-72e34d4ab48d": {
+      "type": "featured-content",
+      "settings": {
+        "text_color": "#000000",
+        "section_title": "Make your world more delicious.",
+        "text": "<p><a href=\"mailto:inquiries@jonahreider.com\" target=\"_blank\" title=\"mailto:inquiries@jonahreider.com\">Reach out<\/a> to learn more.<\/p>",
+        "text_size": "medium"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c22f2190-12f8-4eb9-a455-708db8145142",
+    "8c591858-8351-4d14-9d4b-72e34d4ab48d"
+  ]
+}

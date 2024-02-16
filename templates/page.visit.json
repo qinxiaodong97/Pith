@@ -1,0 +1,97 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "737a7298-2f17-4c79-b961-d034b8b700d5": {
+      "type": "blogs",
+      "blocks": {
+        "dbcc1303-3a87-4a86-bea7-078eb24c220f": {
+          "type": "blog_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_519_2.png",
+            "heading": "<p>Conwell Coffee Hall<\/p><p>New York, NY<\/p>",
+            "type": "",
+            "link": "",
+            "new_tab": true,
+            "article": ""
+          }
+        },
+        "blog_item_cA7gqr": {
+          "type": "blog_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-02-12_at_11.10_1.png",
+            "heading": "<p>Clubhouse on Mulberry\u2028New York, NY<\/p>",
+            "type": "",
+            "link": "",
+            "new_tab": true,
+            "article": ""
+          }
+        },
+        "e624ea45-eef3-4988-bb3b-1296d4ab85aa": {
+          "type": "blog_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_21.png",
+            "heading": "<p><em>IN DEVELOPMENT<\/em><\/p>",
+            "type": "",
+            "link": "",
+            "new_tab": true,
+            "article": ""
+          }
+        },
+        "26a3ecb5-587f-4c99-9bdc-289fbae711d4": {
+          "type": "blog_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_25_1.png",
+            "heading": "<p>Los Gobernadores Hotel<\/p><p>Ciudad de México<\/p>",
+            "type": "",
+            "link": "",
+            "new_tab": true,
+            "article": ""
+          }
+        },
+        "769d193d-861e-4432-98f7-c6ab477ff13e": {
+          "type": "blog_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_31.png",
+            "heading": "<p><em>IN DEVELOPMENT<\/em><\/p>",
+            "type": "",
+            "link": "",
+            "new_tab": true,
+            "article": ""
+          }
+        },
+        "40d21dca-e5df-4a17-ae0c-10a9999c3b57": {
+          "type": "blog_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_24_2_1.png",
+            "heading": "<p>Bar Bava<\/p><p>Ciudad de México<\/p>",
+            "type": "",
+            "link": "",
+            "new_tab": true,
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "dbcc1303-3a87-4a86-bea7-078eb24c220f",
+        "blog_item_cA7gqr",
+        "e624ea45-eef3-4988-bb3b-1296d4ab85aa",
+        "26a3ecb5-587f-4c99-9bdc-289fbae711d4",
+        "769d193d-861e-4432-98f7-c6ab477ff13e",
+        "40d21dca-e5df-4a17-ae0c-10a9999c3b57"
+      ],
+      "settings": {
+        "heading": "",
+        "content": "<p>Experience delicious moments at the restaurants, hotels, and bars that I’ve helped to create.<\/p>",
+        "blog_per_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "737a7298-2f17-4c79-b961-d034b8b700d5"
+  ]
+}

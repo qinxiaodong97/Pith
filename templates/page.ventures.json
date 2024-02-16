@@ -1,0 +1,86 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "fdc818a2-ed8b-4a2b-befe-653bbd60a766": {
+      "type": "blogs",
+      "blocks": {
+        "73df8079-54b1-47c5-8bee-a80ab54f3927": {
+          "type": "blog_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_518_7.png",
+            "heading": "<p>Pzaz Breath Spray<\/p>",
+            "type": "Founder",
+            "link": "https:\/\/pzaz.com",
+            "new_tab": true,
+            "article": ""
+          }
+        },
+        "59358793-4dcf-4666-914c-8ca9e3fb1598": {
+          "type": "blog_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_518_8.png",
+            "heading": "<p>August Period Care<\/p>",
+            "type": "Investor",
+            "link": "https:\/\/www.itsaugust.co",
+            "new_tab": true,
+            "article": ""
+          }
+        },
+        "19b23ada-771e-48f2-8bf5-d219fc23a29c": {
+          "type": "blog_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_518_9.png",
+            "heading": "<p>Bawi Agua Fresca<\/p>",
+            "type": "Investor",
+            "link": "https:\/\/drinkbawi.com",
+            "new_tab": true,
+            "article": ""
+          }
+        },
+        "fcb5f9f6-282a-4be6-8848-b8a6a0ea7e84": {
+          "type": "blog_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_30_1.png",
+            "heading": "<p>Bounty Rewards<\/p>",
+            "type": "Investor",
+            "link": "https:\/\/joinbounty.ai",
+            "new_tab": true,
+            "article": ""
+          }
+        },
+        "4336bee2-d866-4429-849f-a9f70d18709e": {
+          "type": "blog_item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-10_at_6.43_3.png",
+            "heading": "<p>Pith Home Goods<\/p>",
+            "type": "founder",
+            "link": "shopify:\/\/collections\/frontpage",
+            "new_tab": true,
+            "article": ""
+          }
+        }
+      },
+      "block_order": [
+        "73df8079-54b1-47c5-8bee-a80ab54f3927",
+        "59358793-4dcf-4666-914c-8ca9e3fb1598",
+        "19b23ada-771e-48f2-8bf5-d219fc23a29c",
+        "fcb5f9f6-282a-4be6-8848-b8a6a0ea7e84",
+        "4336bee2-d866-4429-849f-a9f70d18709e"
+      ],
+      "settings": {
+        "heading": "",
+        "content": "<p>I’ve created, invested in, and advised consumer and hospitality brands. To learn more please <a href=\"mailto:inquiries@jonahreider.com\" target=\"_blank\" title=\"mailto:inquiries@jonahreider.com\">send an email<\/a>.<\/p>",
+        "blog_per_count": 4
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fdc818a2-ed8b-4a2b-befe-653bbd60a766"
+  ]
+}
